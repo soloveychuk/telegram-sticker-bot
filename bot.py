@@ -31,7 +31,7 @@ def periodic_task():
 # 📅 Періодичне завдання
 def start_periodic_task():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(periodic_task, 'interval', minutes=10)  # Перевірка кожні 10 хвилин
+    scheduler.add_job(periodic_task, 'interval', minutes=0.5)  # Перевірка кожні 10 хвилин
     scheduler.start()
 
 # ▶️ Запуск
