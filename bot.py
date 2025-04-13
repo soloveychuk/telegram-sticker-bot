@@ -45,4 +45,4 @@ if __name__ == '__main__':
     start_periodic_task()
 
     print("Бот запущено...")
-    app.run_poll_
+    app.run_polling()
